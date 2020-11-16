@@ -1,0 +1,9 @@
+digraph "Weather"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Weather\n|# m_windSpeed\l# m_temp\l# m_solarRadiation\l|+ Weather()\l+ Weather()\l+ ~Weather()\l+ setWindSpeed()\l+ getWindSpeed()\l+ setTemp()\l+ getTemp()\l+ setSolarRadiation()\l+ getSolarRadiation()\l+ validate()\l# convertWind()\l# convertSolar()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Weather format."];
+}

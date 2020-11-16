@@ -1,0 +1,12 @@
+digraph "Bst&lt; T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Bst\< T \>\n||+ Bst()\l+ ~Bst()\l+ insert()\l+ traversalInOrder()\l+ traversalPreOrder()\l+ traversalPostOrder()\l+ search()\l+ remove()\l- deletion()\l- minValueNode()\l- insert()\l- traversalInOrder()\l- traversalPreOrder()\l- traversalPostOrder()\l- search()\l- remove()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -root" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{Bst\< T \>::node\n|+ data\l|}",height=0.2,width=0.4,color="black",URL="$struct_bst_1_1node.html",tooltip="A node is a structure containing the actual data, and two pointers pointing to another node."];
+  Node2 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +right\n+left" ,arrowhead="odiamond",fontname="Helvetica"];
+}
