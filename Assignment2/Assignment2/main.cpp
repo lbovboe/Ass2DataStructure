@@ -61,6 +61,8 @@ int main(void) {
             
             ifstream infile (fileName.c_str()); // Stream the file
             if (infile.is_open()) { // If it can be opened
+            
+                getline(infile,skip);
                 while (infile.peek() != EOF) { // And while the next char is not the end of file
                     infile >> dateObj >> timeObj; // Stream into date object and time object (overloaded)
 
