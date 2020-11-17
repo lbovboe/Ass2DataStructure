@@ -1,12 +1,3 @@
-//
-//  Weather.h
-//  Assignment 2
-//
-//  Created by Kenta on 9/6/20.
-//  Copyright © 2020 Kenta. All rights reserved.
-//
-//---------------------------------------------------------------------------------
-
 #ifndef Wind_h
 #define Wind_h
 
@@ -20,9 +11,9 @@ using namespace std;
  *
  * Weather are constructed with wind speed, solar radiation and temperature
  *
- * @author Kenta Toh
+ * @author CAI JIANBO
  * @version 01
- * @date 09/06/2020
+ * @date 10/11/2020
 */
 class Weather {
     

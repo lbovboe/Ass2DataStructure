@@ -1,11 +1,4 @@
-//
-//  map.h
-//  Assignment 2
-//
-//  Created by Kenta on 14/7/20.
-//  Copyright © 2020 Kenta. All rights reserved.
-//
-//---------------------------------------------------------------------------------
+
 
 #ifndef map_h
 #define map_h
@@ -23,9 +16,9 @@ using namespace std;
  * The pair is inserted into the map
  * Basically the map is a vector of pair
  *
- * @author Kenta Toh
+ * @author CAI JIANBO
  * @version 01
- * @date 14/07/2020
+ * @date 10/11/2020
  */
 template <class key, class data>
 /**

@@ -1,11 +1,4 @@
-//
-//  Bst.h
-//  Assignment 2
-//
-//  Created by Kenta on 3/7/20.
-//  Copyright © 2020 Kenta. All rights reserved.
-//
-//---------------------------------------------------------------------------------
+
 
 #ifndef Bst_h
 #define Bst_h
@@ -23,9 +16,9 @@ using namespace std;
  * One pointing to the left, and the other to the right
  * BST automatically sorts the data to its left if smaller, and right if larger
  *
- * @author Kenta Toh
+ * @author CAI JIANBO
  * @version 01
- * @date 16/07/2020
+ * @date 10/11/2020
  */
 template <class T>
 class Bst {

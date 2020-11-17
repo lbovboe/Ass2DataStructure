@@ -1,12 +1,3 @@
-//
-//  main.cpp
-//  Assignment 1
-//
-//  Created by Kenta on 9/6/20.
-//  Copyright © 2020 Kenta. All rights reserved.
-//
-//---------------------------------------------------------------------------------
-
 #include <iostream>
 #include <fstream>
 #include <stdio.h>
@@ -61,7 +52,7 @@ int main(void) {
             
             ifstream infile (fileName.c_str()); // Stream the file
             if (infile.is_open()) { // If it can be opened
-            
+
                 getline(infile,skip);
                 while (infile.peek() != EOF) { // And while the next char is not the end of file
                     infile >> dateObj >> timeObj; // Stream into date object and time object (overloaded)

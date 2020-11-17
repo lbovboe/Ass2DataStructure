@@ -1,11 +1,4 @@
-//
-//  Date.h
-//  Assignment 2
-//
-//  Created by Kenta on 9/6/20.
-//  Copyright © 2020 Kenta. All rights reserved.
-//
-//---------------------------------------------------------------------------------
+
 
 #ifndef Date_h
 #define Date_h

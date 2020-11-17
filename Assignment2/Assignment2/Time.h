@@ -1,11 +1,4 @@
-//
-//  Time.h
-//  Assignment 2
-//
-//  Created by Kenta on 9/6/20.
-//  Copyright © 2020 Kenta. All rights reserved.
-//
-//---------------------------------------------------------------------------------
+
 
 #ifndef Time_h
 #define Time_h
@@ -20,9 +13,9 @@ using namespace std;
  *
  * Time are constructed with hour and min
  *
- * @author Kenta Toh
+ * @author CAI JIANBO
  * @version 01
- * @date 06/06/2020
+ * @date 10/11/2020
  */
 class Time {
 
